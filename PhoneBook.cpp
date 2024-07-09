@@ -308,7 +308,9 @@ void ListContact(vector<Contact>& contacts)
         system("color 0E");
         if (contacts.empty())
         {
-            cout << "No contacts found! " << endl;
+            cout << "No contacts found! " << endl << endl;
+            system("pause");
+            break;
         }
         else
         {
